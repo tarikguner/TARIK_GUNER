@@ -39,7 +39,7 @@
             });
 
             const $carouselWrapper = $('<div class="carousel-wrapper"></div>').css({
-                overflow: 'hidden', // Kaydırma etkinleştirdik
+                overflow: 'hidden', 
                 position: 'relative',
                 width: '90%',
                 margin: '0 auto'
@@ -79,7 +79,7 @@
                     ">&#10084;</span>
                 </div>
                 `).css({
-                    flex: '0 0 calc(100% / 6.5)',  // placeholder için
+                    flex: '0 0 calc(100% / 6.5)',  
                     boxSizing: 'border-box',
                     padding: '10px',
                     position: 'relative'
